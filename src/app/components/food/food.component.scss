@@ -1,0 +1,22 @@
+.delivered { 
+    color: green; 
+}
+
+.canceled { 
+    color: red; 
+}
+
+.pending { 
+    color: orange; 
+}
+
+.table-style {
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    max-height: 500px; // this is option if we have data length more then we can add it
+  }
+
+
